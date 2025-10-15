@@ -7,7 +7,7 @@
 
 结合我自己的兴趣爱好，这个教程会在最后实现一个基于波动光学的光线追踪渲染器（相比Ray-Tracing方法，可以把光以光波的形式进行表达和传输），这会要求你对图形学有基本的直觉。希望这份教程可以帮到你。
 
-项目采用C++17和CUDA Toolkit 12.1+，使用CMake管理。如果你不熟悉CMake，可以直接双击项目根目录的`run.bat`自动配置并编译整个项目。项目主要在Windows上测试，Linux用户可参考`run.bat`编写对应shell脚本，并修改CMake文件。同时，这个教程主要采用Driver API而非Runtime API，因为它更底层，且理解了Driver API后一定能在不付出更多努力的情况下完全掌握Runtime API。
+项目采用C++17和CUDA Toolkit 12.4+，使用CMake管理。如果你不熟悉CMake，可以直接双击项目根目录的`run.bat`自动配置并编译整个项目。项目主要在Windows上测试，Linux用户可参考`run.bat`编写对应shell脚本，并修改CMake文件。同时，这个教程主要采用Driver API而非Runtime API，因为它更底层，且理解了Driver API后一定能在不付出更多努力的情况下完全掌握Runtime API。
 
 > 这份笔记主要是在我研究生生涯中无聊的英语课与论文写作课之类的课程上完成的，因此难免存在一些疏漏，Haha。同时，作为初学者之一，我也难免会遗漏或是搞错一些点，不过我会尽力确保减少它们的数量。如果有任何问题，欢迎提issue！
 

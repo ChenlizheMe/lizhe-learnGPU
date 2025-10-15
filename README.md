@@ -42,7 +42,7 @@ By using the low-level Driver API instead of the Runtime API, this project aims 
 This project is organized into a series of progressive "Lectures," each focusing on a core concept of CUDA programming with the Driver API. The structure is designed to build knowledge incrementally, culminating in a complete wave optics renderer.
 
 -   `Lecture0_Philosophy/` - Philosophy of talking to the GPU.
--   `Lecture1_BareMetalSetup/` - CMake, context creation.
+-   `Lecture1_BareMetalSetup/` - CUDA's environment and programming model.
 -   `Lecture2_Memory/` - GPU memory management.
 -   `Lecture3_Kernel/` - From PTX to execution.
 -   `Lecture4_Abstractions/` - Building our own `<<<...>>>`.
@@ -100,7 +100,7 @@ This project is for educational purposes. Please refer to LICENSE file for detai
 ### 🔧 环境要求
 
 - 支持CUDA的NVIDIA显卡
-- CUDA Toolkit 12.1或更高版本
+- CUDA Toolkit 12.4或更高版本
 - CMake 3.18或更高版本
 - 支持C++17的编译器
 - Windows操作系统
@@ -117,7 +117,7 @@ This project is for educational purposes. Please refer to LICENSE file for detai
 本项目被组织成一系列循序渐进的“讲座”（Lectures），每一讲都专注于使用Driver API进行CUDA编程的一个核心概念。这种结构旨在逐步累积知识，最终构建一个完整的波动光学渲染器。
 
 -   `Lecture0_Philosophy/` - 与GPU对话的哲学。
--   `Lecture1_BareMetalSetup/` - CMake与第一个上下文。
+-   `Lecture1_BareMetalSetup/` - CUDA的编程环境与第一个上下文。
 -   `Lecture2_Memory/` - GPU的内存荒野。
 -   `Lecture3_Kernel/` - 从PTX到执行。
 -   `Lecture4_Abstractions/` - 构建我们自己的 `<<<...>>>`。

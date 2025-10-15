@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 enable_language(CUDA)
 
 # Find CUDA
-find_package(CUDAToolkit 12.1 REQUIRED)
+find_package(CUDAToolkit 12.4 REQUIRED)
 if(CUDAToolkit_FOUND)
     message(STATUS "CUDA version: ${CUDAToolkit_VERSION}")
     message(STATUS "CUDA include dirs: ${CUDAToolkit_INCLUDE_DIRS}")

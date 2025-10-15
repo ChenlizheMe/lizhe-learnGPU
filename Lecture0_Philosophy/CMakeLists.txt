@@ -18,7 +18,7 @@ if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
     set(CMAKE_CUDA_ARCHITECTURES 75)
     
     # Find CUDA
-    find_package(CUDAToolkit 12.1 REQUIRED)
+    find_package(CUDAToolkit 12.4 REQUIRED)
     
     # Set common include path
     set(COMMON_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../common/include)
