@@ -32,7 +32,7 @@ By using the low-level Driver API instead of the Runtime API, this project aims 
 ### 🔧 Requirements
 
 - NVIDIA GPU with CUDA support
-- CUDA Toolkit 11.0 or higher
+- **CUDA Toolkit 12.4 or higher**
 - CMake 3.18 or higher
 - C++17 compatible compiler
 - Windows
@@ -100,10 +100,17 @@ This project is for educational purposes. Please refer to LICENSE file for detai
 ### 🔧 环境要求
 
 - 支持CUDA的NVIDIA显卡
-- CUDA Toolkit 11.0或更高版本
+- CUDA Toolkit 12.1或更高版本
 - CMake 3.18或更高版本
 - 支持C++17的编译器
 - Windows操作系统
+
+### 🚀 快速开始
+
+**Windows用户：**
+直接运行项目根目录下的 `run.bat` 文件，即可自动配置CMake并编译整个项目。
+
+可执行文件将位于 `build/bin/lectureX/Release/` 目录下。
 
 ### 🏛️ 项目架构
 
