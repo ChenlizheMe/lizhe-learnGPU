@@ -28,6 +28,7 @@
 在Lecture0_Philosophy/src，我们有一个最简单的CUDA程序示例，和一个简单的A+B算子。<sup>[5]</sup>对于有图形API基础的读者来说，可以很轻易地发现这种代码的组织形式与图形API的相似性，因为CUDA的早期形式就是参考图形API构造出来的。
 
 好了，这就是你目前需要了解的一切。接下来做好准备，我们要正式开始学习CUDA了。在下一章，我们会先简单讨论一下CUDA的环境和编程模型。
+
 ---
 
 [1] NVIDIA. [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html).
