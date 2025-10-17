@@ -1,5 +1,5 @@
-# CUDA's Enviroment and Programming Model
-## The Enviroment
+# CUDA's Environment and Programming Model
+## The Environment
 要成功编译运行我们的第一个CUDA程序，你需要安装[CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)。这是Nvidia提供的基本开发工具，包含了一个.cu脚本的编译器（nvcc）、常用的CUDA计算库和一些好用的性能分析小玩意<sup>[1]</sup>。你需要先在本地安装它，并将`./CUDAToolkit/bin`和`./CUDAToolkit/libnvvp`加入到环境变量的Path变量中。
 
 如果你熟悉CMake，那么你应该已经注意到项目根目录和每个Lecture目录下都有CMakeLists.txt文件。我们的项目使用CMake来管理编译流程，它会自动找到你安装的CUDA Toolkit，配置编译选项，并生成相应的构建文件。如果你不熟悉CMake也没关系，只需要在项目根目录下运行`run.bat`（Windows）或者手动执行`mkdir build && cd build && cmake .. && cmake --build . --config Release`即可完成编译。CMake会帮你处理好CUDA Driver API的链接、头文件包含路径以及PTX文件的生成等复杂的编译配置。
